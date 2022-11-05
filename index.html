@@ -13,18 +13,14 @@
 <body>
 
   <div class="container">
-    <h1>
-      Advice #<!-- Advice ID goes here -->
-    </h1>
-    <p>
-      "Example Text"
-    </p>
+    <h1 id="title"></h1>
+    <p id="text"></p>
     <picture>
       <source media="(min-width: 768px)" srcset="./images/pattern-divider-desktop.svg" />
       <img src="./images/pattern-divider-mobile.svg" alt="" />
     </picture>
     <div>
-      <button>
+      <button onclick="fetchAdvice()">
         <img src="./images/icon-dice.svg" alt="" />
       </button>
       
